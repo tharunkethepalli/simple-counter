@@ -5,18 +5,17 @@ const increaseBtn = document.getElementById("increase");
 const decreaseBtn = document.getElementById("decrease");
 const resetBtn = document.getElementById("reset");
 
-increaseBtn.addEventListener("click", function() {
+increaseBtn.addEventListener("click", () => {
     count++;
     countDisplay.textContent = count;
 });
 
-decreaseBtn.addEventListener("click", function() {
+decreaseBtn.addEventListener("click", () => {
     count--;
     countDisplay.textContent = count;
 });
 
-resetBtn.addEventListener("click", function() {
+resetBtn.addEventListener("click", () => {
     count = 0;
     countDisplay.textContent = count;
 });
-
