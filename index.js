@@ -1,7 +1,8 @@
-let count = 1; // Start from 1
+let count = 1; // start from 1
 const minCount = 1;
 const maxCount = 10;
 
+// Get elements
 const countDisplay = document.getElementById("count");
 const increaseBtn = document.getElementById("increase");
 const decreaseBtn = document.getElementById("decrease");
